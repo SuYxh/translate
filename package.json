@@ -1,0 +1,54 @@
+{
+  "name": "@yangxinhao/translate",
+  "version": "0.0.1",
+  "description": "预渲染",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuYxh/utils"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.ts ./ --fix",
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "sideEffects": false,
+  "author": "xinhao0426 <y170088888@163.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": "2.6.14",
+    "@vue/composition-api": "1.7.2"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "1.7.2",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.25.3",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "23.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/node": "^18.16.18",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "fast-glob": "^3.2.12",
+    "rimraf": "^5.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-import-export": "^0.0.1",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5",
+    "vitest": "^0.24.5",
+    "vue": "2.6.14"
+  }
+}
